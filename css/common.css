@@ -48,3 +48,93 @@
 	line-height: 5px;
 } 
 /*顶部快捷导航条 end*/
+
+/*header*/
+.header {
+	height: 105px;
+	position: relative;
+}
+.header .logo {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	width: 175px;
+	height: 56px;
+}
+.header .logo h1 a {
+	display: block;
+	width: 175px;
+	height: 56px;
+	background: url(../imges/logo.png);
+	overflow: hidden;
+}
+.header .logo h1 {
+	/* 文字隐藏的 两种方法 1.text-indent首行缩进负数 然后溢出隐藏overflow hidden*/
+	text-indent: -99em;
+	/*2.font-size ：0*/
+	/*font-size: 0;*/
+}
+.header .search {
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.header .search .text {
+	float: left;
+	width: 455px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	padding-left: 10px;
+	color: #ccc;
+}
+.header .search .btn {
+	float: left;
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+}
+.header .hotwords {
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hotwords a {
+	margin:0 10px;
+}
+.shopcar {
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+	line-height: 34px;
+	font-family: 'icomoon';
+	text-align: center;
+	font-size: 14px;
+}
+.shopcar .car {
+	color: #da5555;
+	margin-right: 3px;
+}
+.shopcar .arrow {
+	margin-left: 5px;
+}
+.shopcar .count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	background-color: #e50012;
+	height: 14px;
+	line-height: 12px;
+	padding: 0 3px;
+	/*boder-radius ：左上角 右上角 右下角 左下角*/
+	border-radius: 7px 7px 7px 0;
+	color: #fff;
+
+}
+/*header end*/
