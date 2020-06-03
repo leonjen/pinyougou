@@ -244,4 +244,34 @@
 .mod_service_help {
 	background-position: -256px -208px;
 }
+/*mode help*/
+.mod_help {
+	height: 187px;
+}
+.mod_help_item {
+	float: left;
+	width: 150px;
+	padding: 20px 0 0 50px;
+}
+.mod_help_item dt {
+	height: 25px;
+	font-size: 16px;
+}
+.mod_help_item dd {
+	height: 22px;
+}
+.mod_help_app dt ,
+.mod_help_app p {
+	padding-left: 15px;
+}
+.mod_help_app img {
+	margin: 7px 0;
+}
+.mod_copyright {
+	text-align: center;
+	margin: 20px 0 0 15px;
+}
+.mod_copyright_info {
+	line-height: 20px;
+}
 /*footer end*/
