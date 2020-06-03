@@ -1,4 +1,4 @@
-/*公共样式*/
+公共样式*/
 .fl {
 	float: left;
 }
@@ -135,6 +135,113 @@
 	/*boder-radius ：左上角 右上角 右下角 左下角*/
 	border-radius: 7px 7px 7px 0;
 	color: #fff;
-
 }
 /*header end*/
+/*nav start*/
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+}
+.dropdown {
+	width: 209px;
+	height: 45px;
+}
+.dropdown .dt {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: #b1191a;
+	font-size: 16px;
+	text-align: center;
+	line-height: 45px;
+}
+.dropdown .dd {
+	height: 465px;
+	background-color: #C81623;
+	margin-top: 2px;
+}
+.menu_item {
+	height: 31px;
+	line-height: 31px;
+	margin-left: 1px;
+	padding-left: 10px;
+	padding: 0 10px;
+	color: #fff;
+}
+.menu_item:hover {
+	background-color: #fff;
+}
+/*鼠标经过li 里面的a 变颜色*/
+.menu_item:hover a {
+	color: #b1191a;
+}
+.menu_item a {
+	font-size: 14px;
+	color: #fff;
+}
+.menu_item i {
+	float: right;
+	font-family: 'icomoon';
+	font-size: 14px;
+}
+.navitems {
+	margin-left: 10px;
+}
+.navitems li {
+	float: left;
+}
+.navitems li a {
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 25px;
+	font-size: 16px;
+}
+/*nav end 
+/*footer start*/
+.footer {
+	height: 386px;
+	background-color: #F5F5F5;
+	padding-top: 30px;
+}
+.mod_service {
+	height: 79px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_service li {
+	float: left;
+	width: 240px;
+	height: 79px;
+}
+.mod_service_icon {
+	/*浮动的盒子 可以 直接给大小的*/
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 37px;
+	background: url(../imges/icons.png) no-repeat
+}
+.mod_service_zheng {
+	background-position: -252px -2px;
+}
+.mod_service_tit {
+	float: left;
+	margin-left: 5px;
+}
+.mod_service_tit h5 {
+	margin: 5px 0;
+	font-size: 14px;
+}
+.mod_service_kuai {
+	background-position:-255px -53px;
+}
+.mod_service_return {
+	background-position:-256px -105px;
+}
+.mod_service_feature {
+	background-position: -258px -156px;
+}
+.mod_service_help {
+	background-position: -256px -208px;
+}
+/*footer end*/
