@@ -1,0 +1,105 @@
+/*列表页面的css*/
+.sk {
+	position: absolute;
+	left: 185px;
+	top: 40px;
+	height: 32px;
+	border-left: 1px solid #b1191a;
+	padding: 5px 0 0 14px;
+}
+.sk_list li {
+	float: left;
+	line-height: 45px;
+	margin: 0 30px;
+}
+.sk_list li a {
+	font-size:  16px;
+	color: #000;
+	font-weight: 700;
+}
+.sk_list li a:hover {
+	color: #c81523;
+}
+.sk_con li {
+	float: left;
+	line-height: 45px;
+	margin: 0 20px;
+}
+.sk_con li a {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'icomoon';
+}
+/*秒杀图标结束*/
+/*列表内容区域*/
+.sk_bd {
+	margin-top: 25px;
+}
+.sk_bd ul {
+	overflow: hidden;
+	width: 1220px;
+}
+.sk_goods {
+	position: relative;
+	float: left;
+	width: 288px;
+	height: 458px;
+	border: 1px solid transparent;
+	margin: 0 12px 15px 0;
+}
+.sk_goods:hover {
+	border: 1px solid #e12228;
+}
+.sk_goods_title {
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	padding: 10px;
+}
+.sk_goods_price {
+	padding: 0 10px;
+}
+.sk_goods_price em {
+	font-size: 22px;
+	color: #e60012;
+}
+.sk_goods_price del {
+	font-size: 14px;
+	font-weight: 700;
+	color: #a4a4a4;
+}
+.sk_goods_progress {
+	padding: 0 10px;
+
+}
+.bar {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #b1191a;
+	/*行内块级与文字对齐方式用 水平居中*/
+	vertical-align: middle;
+	margin: 0 5px;
+	border-radius: 5px;
+}
+.bar_in {
+	width: 87%;
+	height: 10px;
+	background-color: #b1191a;
+}
+.sk_goods_progress em,
+.sk_goods_progress i{
+	color: #E3393E;
+}
+.sk_goods_buy {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: block;
+	height: 50px;
+	background-color: #BC2815;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
