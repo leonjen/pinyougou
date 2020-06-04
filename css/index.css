@@ -135,4 +135,93 @@
 	height: 75px;
 	margin-top: 5px;
 }
-/*newsflash end
+/*newsflash end*/
+.recommend {
+	height: 163px;
+	margin-top: 10px;
+}
+.recommend-hd {
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+
+}
+.recommend-hd img {
+	margin: 30px 0 10px;
+}
+.recommend-hd h3 {
+	font-size: 18px;
+	color: #fff;
+	/*让加粗的不加粗用 font-weight normal*/
+	font-weight: normal;
+}
+.recommend-bd {
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.recommend-bd li {
+	float: left;
+	width: 248px;
+	height: 145px;
+	border-left: 1px solid #ccc;
+	margin-top: 10px;
+}
+/*floor 楼层区*/
+.box-hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+	margin-top: 25px;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+	font-weight: normal;
+}
+.tab-list {
+	float: right;
+	line-height: 30px;
+}
+.tab-list li {
+	float: left;
+}
+.tab-list li a {
+	margin: 0 15px;
+}
+.box-bd {
+	height: 360px;
+}
+.w209 {
+	width: 209px;
+}
+.w329 {
+	width: 329px;
+}
+.w219 {
+	width: 219px;
+}
+.w220 {
+	width: 220px;
+}
+.tab-con li {
+	float: left;
+	height: 360px;
+}
+.tab-con-item {
+	border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+	/*父盒没有高 ，子盒浮动， 给父盒加上overflow hidden 清除浮动*/
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.tab-con-list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	text-align: center;
+}
