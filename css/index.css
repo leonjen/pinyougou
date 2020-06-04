@@ -225,6 +225,13 @@
 	margin-left: 10px;
 	text-align: center;
 }
+.box-bd img {
+	transition: all .5s;
+}	
+/*我们鼠标经过图片 往右走8px*/
+.box-bd img:hover {
+	margin-left: 8px;
+}
 /*固定电梯导航*/
 .fixedtool {
 	position: fixed;

@@ -164,12 +164,14 @@
 	height: 31px;
 	line-height: 31px;
 	margin-left: 1px;
-	padding-left: 10px;
-	padding: 0 10px;
+	padding: 0 5px;
 	color: #fff;
+	transition: all 0.5s;
 }
 .menu_item:hover {
+	padding-left: 15px;
 	background-color: #fff;
+	color: #b1191a;
 }
 /*鼠标经过li 里面的a 变颜色*/
 .menu_item:hover a {
