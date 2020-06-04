@@ -225,3 +225,24 @@
 	margin-left: 10px;
 	text-align: center;
 }
+/*固定电梯导航*/
+.fixedtool {
+	position: fixed;
+	width: 66px;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	background-color: #fff;
+}
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.fixedtool .current {
+	background-color: #c81623;
+	color: #fff;
+}
