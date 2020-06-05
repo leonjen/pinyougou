@@ -103,3 +103,49 @@
 	line-height: 50px;
 	font-size: 20px;
 }
+/*分页*/
+.page {
+	margin: 40px 0;
+	/*里面的文字内容  行内块  行内元素都可以居中对齐*/
+	text-align: center;
+
+}
+.page_num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
+.page_num .pn_prev,
+.page_num .pn_next {
+	width: 83px;
+
+}
+.page_num .dotted {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+.page_num .current {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+.page_skip input {
+	width: 36px;
+	height: 36px;
+	border: 1px solid #ccc;
+	text-align: center;
+	transition:all 0.5s;
+}
+/*表单获得焦点后*/
+.page_skip input:focus {
+	width: 50px;
+	border: 1px solid skyblue;
+}
+.page_skip button {
+	width: 54px;
+	height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
